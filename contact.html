@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact and Order - Lami Coffee</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Lami Coffee</h1>
+        <p>Pure Ethiopian coffee with culture, history, and natural flavor.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="coffee.html">Coffee Selection</a></li>
+            <li><a href="contact.html">Contact and Order</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Contact and Order</h2>
+            <p>
+                Submit your details below to inquire about available Ethiopian coffee
+                origins, roast options, or placing an order.
+            </p>
+
+            <form method="post">
+                <p>
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="+251 919 000 000">
+                </p>
+
+                <p>
+                    <label for="region">Coffee Origin</label><br>
+                    <select id="region" name="region">
+                        <option value="yirgacheffe">Yirgacheffe</option>
+                        <option value="sidamo">Sidamo</option>
+                        <option value="harar">Harar</option>
+                        <option value="limu">Limu</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="quantity">Quantity (kg)</label><br>
+                    <input type="number" id="quantity" name="quantity" min="1" max="100" value="1" required>
+                </p>
+
+                <p>
+                    <label for="message">Order Details or Message</label><br>
+                    <textarea id="message" name="message" rows="4" cols="36" placeholder="Specify roast preference, delivery details, or questions..."></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>Contact Us</h2>
+
+        <p>
+            Phone:
+            <a href="tel:+251919000000">+251 91900000000</a>
+        </p>
+
+        <p>
+            Email:
+            <a href="mailto:info@lamicoffee.com">info@lamicoffee.com</a>
+        </p>
+
+        <p>&copy; 2026 Keno | Lami Coffee</p>
+    </footer>
+
+</body>
+
+</html>
